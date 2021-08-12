@@ -29,5 +29,17 @@ body
 
 a
   color: $dark-foreground-color
+  &:hover, &:active, &:focus
+    color: $dark-primary-color
   @media (prefers-color-scheme: light)
     color: $light-background-color
+    &:hover, &:active, &:focus
+      color: $dark-primary-color
+
+footer
+  padding: 0.5em 2em
+  color: $dark-foreground-color
+  a
+    color: $dark-foreground-color
+    &:hover, &:active, &:focus
+      color: $dark-primary-color
