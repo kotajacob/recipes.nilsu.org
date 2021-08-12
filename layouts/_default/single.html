@@ -1,4 +1,14 @@
 {{ define "main" }}
+<div class="content">
+  <h1 class="site-title"><a href="/">{{ .Site.Title }}</a></h1>
   <h1>{{ .Title }}</h1>
+  {{ range (.GetTerms "cuisines") }}
+  <span class="cuisines"><a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a></span>
+  {{ end }}
+  <br>
+  {{ range (.GetTerms "courses") }}
+  <span class="courses"><a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a></span>
+  {{ end }}
   {{ .Content }}
+</div>
 {{ end }}

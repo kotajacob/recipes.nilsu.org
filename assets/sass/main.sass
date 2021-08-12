@@ -1,0 +1,27 @@
+$font-stack: Helvetica, sans-serif
+$light-foreground-color: #fff
+$light-background-color: #222
+$dark-foreground-color: #eee
+$dark-background-color: #000
+
+body
+  font: 100% $font-stack
+  color: $dark-foreground-color
+  background-color: $dark-background-color
+  margin: 120px 20px
+  @media (prefers-color-scheme: light)
+    color: $light-background-color
+    background-color: $light-foreground-color
+
+.content
+  margin: auto
+  max-width: 600px;
+
+.site-title
+  font-size: 3em
+  text-align: center
+
+a
+  color: $dark-foreground-color
+  @media (prefers-color-scheme: light)
+    color: $light-background-color
