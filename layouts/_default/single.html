@@ -10,5 +10,23 @@
   <span class="courses"><a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a></span>
   {{ end }}
   {{ .Content }}
+  <h2>Equipment</h2>
+  <ul>
+    {{ range $.Params.equipment }}
+    <li>{{ . }}</li>
+    {{ end }}
+  </ul>
+  <h2>Ingredients</h2>
+  <ul>
+    {{ range $.Params.ingredients }}
+    <li>{{ . }}</li>
+    {{ end }}
+  </ul>
+  <h2>Instructions</h2>
+  <ul>
+    {{ range $.Params.instructions }}
+    <li>{{ . }}</li>
+    {{ end }}
+  </ul>
 </div>
 {{ end }}
