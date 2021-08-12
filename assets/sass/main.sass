@@ -1,10 +1,12 @@
 $font-stack: Helvetica, sans-serif
-$light-foreground-color: #fff
-$light-background-color: #222
+$light-background-color: #fff
+$light-foreground-color: #222
 $dark-foreground-color: #eee
 $dark-background-color: #000
 $light-primary-color: #76657f
 $dark-primary-color: #8b7a95
+$mid-color: #aaa
+$transparent-color: #aaa0
 
 body
   font: 100% $font-stack
@@ -12,8 +14,8 @@ body
   background-color: $dark-background-color
   margin: 120px 20px
   @media (prefers-color-scheme: light)
-    color: $light-background-color
-    background-color: $light-foreground-color
+    color: $light-foreground-color
+    background-color: $light-background-color
 
 .content
   margin: auto
@@ -32,17 +34,23 @@ a
   &:hover, &:active, &:focus
     color: $dark-primary-color
   @media (prefers-color-scheme: light)
-    color: $light-background-color
+    color: $light-foreground-color
     &:hover, &:active, &:focus
-      color: $dark-primary-color
+      color: $light-primary-color
 
 footer
   padding: 0.5em 2em
   color: $dark-foreground-color
+  @media (prefers-color-scheme: light)
+    color: $light-foreground-color
   a
     color: $dark-foreground-color
     &:hover, &:active, &:focus
       color: $dark-primary-color
+    @media (prefers-color-scheme: light)
+      color: $light-foreground-color
+      &:hover, &:active, &:focus
+        color: $light-primary-color
 
 .ingredient label
   transition: 0.3s ease
@@ -54,11 +62,11 @@ footer
   height: 0.8em
   margin-right: 1ch
   border-radius: 0.2ex
-  background: #8880
+  background: $transparent-color
   border: solid 2px $dark-foreground-color
   transition: .3s ease
   @media (prefers-color-scheme: light)
-    border: solid 2px $light-background-color
+    border: solid 2px $light-foreground-color
 
 .ingredient input
   position: absolute
@@ -67,7 +75,7 @@ footer
 
 .ingredient input:checked
   ~ label
-    color: #888
+    color: $mid-color
     text-decoration: line-through
 
     .ticker
