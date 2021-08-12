@@ -24,7 +24,9 @@
     {{ else }}
     <div class="ingredient">
       <input type="checkbox" id="{{ $i }}">
-      <label for="{{ $i }}">{{ $v }}</label>
+      <label for="{{ $i }}">
+        <span class="ticker"></span>{{ $v }}
+      </label>
     </div>
     {{ end }}
     {{ end }}
