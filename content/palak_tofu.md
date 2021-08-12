@@ -5,7 +5,7 @@ draft: false
 cuisines:
   - Indian
 courses:
-  - Entre
+  - Entree
 equipment:
   - Cutting tools
   - Pot
