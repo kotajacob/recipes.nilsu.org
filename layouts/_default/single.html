@@ -18,13 +18,13 @@
   </ul>
   <h2>Ingredients</h2>
   <ul>
-    {{ range $v := .Params.ingredients }}
+    {{ range $i, $v := .Params.ingredients }}
     {{ if (eq $v "break") }}
     <hr>
     {{ else }}
     <div class="ingredient">
-      <input type="checkbox">
-      <label>{{ $v }}</label>
+      <input type="checkbox" id="{{ $i }}">
+      <label for="{{ $i }}">{{ $v }}</label>
     </div>
     {{ end }}
     {{ end }}
