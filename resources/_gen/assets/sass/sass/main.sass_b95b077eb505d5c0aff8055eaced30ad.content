@@ -1,1 +1,0 @@
-body{font:100% Helvetica,sans-serif;color:#eee;background-color:#000;margin:120px 20px}@media(prefers-color-scheme:light){body{color:#222;background-color:#fff}}.content{margin:auto;max-width:600px}.site-title{font-size:3em;text-align:center}a{color:#eee}@media(prefers-color-scheme:light){a{color:#222}}
