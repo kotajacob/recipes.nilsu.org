@@ -12,19 +12,23 @@
   {{ .Content }}
   <h2>Equipment</h2>
   <ul>
-    {{ range $.Params.equipment }}
+    {{ range .Params.equipment }}
     <li>{{ . }}</li>
     {{ end }}
   </ul>
   <h2>Ingredients</h2>
   <ul>
-    {{ range $.Params.ingredients }}
-    <li>{{ . }}</li>
+    {{ range $v := .Params.ingredients }}
+    {{ if (eq $v "break") }}
+    <hr>
+    {{ else }}
+    <li>{{ $v }}</li>
+    {{ end }}
     {{ end }}
   </ul>
   <h2>Instructions</h2>
   <ol>
-    {{ range $.Params.instructions }}
+    {{ range .Params.instructions }}
     <li>{{ . }}</li>
     {{ end }}
   </ol>
