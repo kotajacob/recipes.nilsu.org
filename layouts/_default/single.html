@@ -22,7 +22,10 @@
     {{ if (eq $v "break") }}
     <hr>
     {{ else }}
-    <li>{{ $v }}</li>
+    <div class="ingredient">
+      <input type="checkbox">
+      <label>{{ $v }}</label>
+    </div>
     {{ end }}
     {{ end }}
   </ul>
