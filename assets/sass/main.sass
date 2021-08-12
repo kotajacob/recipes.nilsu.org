@@ -3,8 +3,8 @@ $light-foreground-color: #fff
 $light-background-color: #222
 $dark-foreground-color: #eee
 $dark-background-color: #000
-$light-primary-color: #76657f;
-$dark-primary-color: #8b7a95;
+$light-primary-color: #76657f
+$dark-primary-color: #8b7a95
 
 body
   font: 100% $font-stack
@@ -17,7 +17,7 @@ body
 
 .content
   margin: auto
-  max-width: 600px;
+  max-width: 600px
 
 .site-title
   font-size: 3em
@@ -43,3 +43,36 @@ footer
     color: $dark-foreground-color
     &:hover, &:active, &:focus
       color: $dark-primary-color
+
+.ingredient label
+  transition: 0.3s ease
+
+.ingredient .ticker
+  display: inline-block
+  box-sizing: border-box
+  width: 0.8em
+  height: 0.8em
+  margin-right: 1ch
+  border-radius: 0.2ex
+  background: #8880
+  border: solid 2px $dark-foreground-color
+  transition: .3s ease
+  @media (prefers-color-scheme: light)
+    border: solid 2px $light-background-color
+
+.ingredient input
+  position: absolute
+  visibility: hidden
+  opacity: 0
+
+.ingredient input:checked
+  ~ label
+    color: #888
+    text-decoration: line-through
+
+    .ticker
+      background: $dark-primary-color
+      border: solid 2px $dark-primary-color
+      @media (prefers-color-scheme: light)
+        background: $light-primary-color
+        border: solid 2px $light-primary-color
