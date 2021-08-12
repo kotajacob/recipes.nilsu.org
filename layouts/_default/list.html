@@ -1,11 +1,16 @@
 {{ define "main" }}
 
 <body>
-  <h1>{{ .Title }}</h1>
-  {{ range .Pages }}
-  <div class="listpost">
-    <h2><a href="{{.RelPermalink}}">{{.Title}}</a></h2>
+  <div class="content">
+    <h1 class="site-title"><a href="/">{{ .Site.Title }}</a></h1>
+    {{ if (ne .Site.Title .Title) }}
+    <h1 class="list-title">{{ .Title }}</h1>
+    {{ end }}
+    {{ range .Pages }}
+    <div class="listpost">
+      <h1><a href="{{.RelPermalink}}">{{.Title}}</a></h2>
+    </div>
+    {{ end }}
   </div>
-  {{ end }}
 </body>
 {{ end }}
