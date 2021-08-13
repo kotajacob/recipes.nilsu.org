@@ -22,7 +22,7 @@ ingredients:
   - Plenty of garam masala
   - Some cumin
   - Some turmeric
-  - Some chili flakes (cayenne is fine to)
+  - Some chili flakes (cayenne is fine too)
   - Salt to taste
   - break
   - 1 pound of tofu
@@ -36,4 +36,3 @@ instructions:
   - Add the tofu cubes and wait until they cook through
   - Eat over rice
 ---
-

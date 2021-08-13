@@ -19,7 +19,7 @@ ingredients:
   - break
   - Plenty of garlic powder (you can use fresh, but I did not)
   - Plenty of cumin
-  - Plenty of chili flakes (cayenne is fine to)
+  - Plenty of chili flakes (cayenne is fine too)
   - Some paprika
   - Salt to taste
 instructions:
