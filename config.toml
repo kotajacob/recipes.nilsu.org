@@ -1,4 +1,4 @@
-baseURL = "http://recipe.nilsu.org/"
+baseURL = "https://recipe.nilsu.org/"
 languageCode = "en-us"
 title = "Nilsu Recipes"
 
