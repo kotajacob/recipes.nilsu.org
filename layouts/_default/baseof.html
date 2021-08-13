@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ .Site.Title }}</title>
+  <title>[ nilsu ~/recipes ]</title>
   {{ $sass := resources.Get "sass/main.sass" }}
   {{ $style := $sass | resources.ToCSS | resources.Minify }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
