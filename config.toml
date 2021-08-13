@@ -1,6 +1,6 @@
-baseURL = "http://recipe.nilsu.orgorg/"
+baseURL = "http://recipe.nilsu.org/"
 languageCode = "en-us"
-title = "Nilsu Recipes"
+title = "[ nilsu ~/recipes ]"
 
 [taxonomies]
 cuisines = 'cuisines'
