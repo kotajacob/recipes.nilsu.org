@@ -6,7 +6,7 @@
     {{ if (ne .Site.Title .Title) }}
     <h1 class="list-title">{{ .Title }}</h1>
     {{ end }}
-    {{ range .Pages }}
+    {{ range .Pages.ByTitle }}
     <div class="listpost">
       <h1><a href="{{.RelPermalink}}">{{.Title}}</a></h2>
     </div>
