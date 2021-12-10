@@ -18,7 +18,9 @@
   <span class="courses"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
   {{ end }}
   {{ .Content }}
+  {{ if .Params.equipment }}
   <h2>Equipment</h2>
+  {{ end }}
   <ul>
     {{ range .Params.equipment }}
     <li>{{ . }}</li>
