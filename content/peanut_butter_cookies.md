@@ -24,6 +24,6 @@ instructions:
 - Mix sugar and peanut butter in mixing bowl
 - Mix in nut milk and vanilla
 - Mix in flour, baking soda, and salt
-- Scoop 1.5Tbps size balls of dough and flatten with a fork / hand.
-- Bake 10-13 minutes, cool for a few after.
+- Scoop 1.5Tbps size balls of dough and flatten with a fork / hand
+- Bake 10-13 minutes, cool for a few after
 ---
