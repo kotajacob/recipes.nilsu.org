@@ -34,5 +34,5 @@ instructions:
   - Once the onion is cooked, add the spinach and tomato
   - Let the spinach wilt, and then blend the whole mixture until smooth
   - Add the tofu cubes and wait until they cook through
-  - Eat over rice
+  - Enjoy over rice
 ---
