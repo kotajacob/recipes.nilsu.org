@@ -1,0 +1,16 @@
+image: alpine/latest
+packages:
+  - rsync
+  - hugo
+sources:
+  - https://git.sr.ht/~kota/recipes.nilsu.org
+secrets:
+  - 76d7b309-688f-4e71-a0cf-41ab88eaa874
+tasks:
+  - build: |
+      cd recipes.nilsu.org
+      hugo --cleanDestinationDir --minify
+  - deploy: |
+      cd recipes.nilsu.org
+      sshopts="ssh -o StrictHostKeyChecking=no"
+      rsync --rsh="$sshopts" -rdvP --delete public/ kota@recipe.nilsu.org:/var/www/html/recipe/
