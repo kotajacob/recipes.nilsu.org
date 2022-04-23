@@ -19,7 +19,7 @@ ingredients:
   - break
   - 2 hands full mixed baby greens
 instructions:
-  - Thinly the onion
+  - Thinly slice the onion
   - Cut the tomato into half-rounds
   - Slice the cucumber into 3 inch long spears
   - Spread the hummus on the tortillas
