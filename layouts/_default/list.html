@@ -4,7 +4,7 @@
   <div class="content">
     <h1 class="site-title"><a href="/">{{ .Site.Title }}</a></h1>
     {{ if (ne .Site.Title .Title) }}
-    <h1 class="list-title">{{ .Title }}</h1>
+    <h1 class="list-title"># {{ .Title }}</h1>
     {{ end }}
     {{ range .Pages.ByTitle }}
     <div class="listpost">
