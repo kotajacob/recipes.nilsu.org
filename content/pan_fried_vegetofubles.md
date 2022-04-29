@@ -23,19 +23,11 @@ ingredients:
   - Toasted sesame oil (optional)
 instructions:
   - Drain and optionally press the tofu
-  - While the tofu is pressing, cut the pepper and onion into 1 inch squares
-  - Cut the garlic into thin slices
-  - Begin to fry the pepper, onion, and garlic on high heat
-  - Separate the broccoli into bite-sized florets
-  - When the pepper and onion are cooked, but still crunchy, put them into a separate container
-  - Begin to fry the broccoli
-  - Cut the tofu into 1 inch cubes
-  - Add the lid to the pan, and some water for the broccoli to steam
-  - When cooked, add the broccoli to the pepper and onion
-  - Fry the tofu, leaving on one side until a crust begins to form
-  - When the tofu is nearly cooked, turn off the heat
-  - Add soy sauce and sriracha to the tofu
-  - Once the sauces are heated through, add the mixture to the pepper, onion, and broccoli
+  - Cut the vegetables and tofu into 1 inch pieces
+  - Fry each thing separately for better control, or together for better lazy
+  - Use the lid if the broccoli needs steamed
+  - Add soy sauce and sriracha
+  - Once the sauces are heated through, take off the heat
   - Add some rice vinegar and gently mix together
   - Yum with rice
   - Optionally top with sesame oil
