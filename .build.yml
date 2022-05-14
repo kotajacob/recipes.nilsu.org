@@ -9,8 +9,8 @@ secrets:
 tasks:
   - build: |
       cd recipes.nilsu.org
-      hugo --cleanDestinationDir --minify
+      hugo --cleanDestinationDir
   - deploy: |
       cd recipes.nilsu.org
       sshopts="ssh -o StrictHostKeyChecking=no"
-      rsync --rsh="$sshopts" -rdvP --delete public/ kota@recipe.nilsu.org:/var/www/html/recipe/
+      rsync --rsh="$sshopts" -rdvP public/ kota@recipe.nilsu.org:/var/www/html/recipes.nilsu.org/
