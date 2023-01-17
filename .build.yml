@@ -5,7 +5,7 @@ packages:
 sources:
   - https://git.sr.ht/~kota/recipes.nilsu.org
 secrets:
-  - 76d7b309-688f-4e71-a0cf-41ab88eaa874
+  - 65dc7683-5d31-442a-b388-62b1d4452851
 tasks:
   - build: |
       cd recipes.nilsu.org
