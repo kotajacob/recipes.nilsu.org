@@ -27,3 +27,4 @@ instructions:
   - Add tumeric and cook for another minute.
   - Cook tofu, milk, and other ingredients for few more minutes till liquid is
     gone.
+---
