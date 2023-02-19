@@ -5,7 +5,7 @@ draft: false
 cuisines:
   - American
 courses:
-  - Entree
+  - Breakfast
 equipment:
   - Pan
   - Spatula
