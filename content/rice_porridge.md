@@ -22,7 +22,6 @@ instructions:
   - Put rice and milk in a thick bottomed pot and boil at low heat
   - Stir frequently to avoid burning the rice or milk
   - Rice is finished when al dente and most milk is absorbed
-  - break
   - Boil gooseberries for 20 minutes until they are tender and most of the liquid has evaporated
   - Add 50g of sugar and cook for 10 more minutes
   - Add a few remaining gooseberries to give sour bites within a sweet compote

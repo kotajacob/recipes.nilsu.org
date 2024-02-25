@@ -36,7 +36,6 @@ instructions:
    with a spoon
  - Add the drained white beans and stir, letting them sauté (uncovered) with
    the tomatoes until most of the liquid has evaporated (about 5 minutes)
- - break
  - Drain the cashews and add them to a high-speed blender with the water
  - Once the liquid has reduced from your tomatoes and beans, add the cashew
    cream and cook, stirring occasionally, until it’s a thick, saucy consistency
