@@ -29,4 +29,6 @@ instructions:
   - Once the onion is cooked, add the tomato and beans
   - Add the spices
   - Once thoroughly heated, serve with vegan sour cream as an optional topping
+related:
+  - cornbread
 ---

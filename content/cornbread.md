@@ -33,5 +33,7 @@ instructions:
   - Pour mixture into baking pan thoroughly
   - Bake until cooked thoroughly (~35 minutes)
   - Eat yum yum 😋
+related:
+  - chili
 ---
 

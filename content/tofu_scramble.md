@@ -22,9 +22,9 @@ ingredients:
   - parsley (optional)
   - chili flakes (optional)
 instructions:
-  - Crumble tofu and put on plate.
-  - Cook onion over med/low heat for 7 mins (until soft).
-  - Add tumeric and cook for another minute.
+  - Crumble tofu and put on plate
+  - Cook onion over med/low heat for 7 mins (until soft)
+  - Add tumeric and cook for another minute
   - Cook tofu, milk, and other ingredients for few more minutes till liquid is
-    gone.
+    gone
 ---

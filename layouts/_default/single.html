@@ -47,6 +47,14 @@
     <li>{{ . }}</li>
     {{ end }}
   </ol>
+  {{ if .Params.related }}
+  <h2>Related</h2>
+  <ul>
+    {{ range .Params.related }}
+	<li><a href="/{{ . }}">{{ . }}</a></li>
+    {{ end }}
+  </ul>
+  {{ end }}
   {{- partial "footer.html" . -}}
 </div>
 {{ end }}

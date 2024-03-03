@@ -23,15 +23,15 @@ ingredients:
  - 1 tsp baking powder
  - pinch of salt
 instructions:
- - Preheat the oven to 200C / 390F.
- - Slice the peaches.
- - Add peaches to the saucepan and cook on medium heat for 3-5 minutes, stirring frequently, until the peaches start to release liquid.
- - Reduce the heat to medium-low and add the cornstarch, sugar, and cinnamon.
- - Stir and cook for another 5-7 minutes until the peaches are tender and the liquid is very thick and saucy.
- - Transfer the peach mixture to the pie dish and set aside.
- - Melt the butter.
- - In a large bowl, mix together the melted vegan butter, sugar, vanilla and soy milk.
- - Add the flour, baking powder and salt. Stir til the batter is thick like dough.
- - Using your hands crumble the batter onto to cobbler.
- - Then place the cobbler on the middle rack and bake for 30-40 minutes.
+ - Preheat the oven to 200C / 390F
+ - Slice the peaches
+ - Add peaches to the saucepan and cook on medium heat for 3-5 minutes, stirring frequently, until the peaches start to release liquid
+ - Reduce the heat to medium-low and add the cornstarch, sugar, and cinnamon
+ - Stir and cook for another 5-7 minutes until the peaches are tender and the liquid is very thick and saucy
+ - Transfer the peach mixture to the pie dish and set aside
+ - Melt the butter
+ - In a large bowl, mix together the melted vegan butter, sugar, vanilla and soy milk
+ - Add the flour, baking powder and salt. Stir til the batter is thick like dough
+ - Using your hands crumble the batter onto to cobbler
+ - Then place the cobbler on the middle rack and bake for 30-40 minutes
 ---

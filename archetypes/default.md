@@ -7,5 +7,6 @@ courses:
 equipment:
 ingredients:
 instructions:
+related:
 ---
 

@@ -15,4 +15,3 @@ ingredients:
 instructions:
 - Combine ingredients and blend
 ---
-

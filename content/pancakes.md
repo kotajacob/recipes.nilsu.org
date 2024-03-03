@@ -18,8 +18,10 @@ ingredients:
   - 1 tbps apple cider vinegar
   - 1 tsp vanilla
 instructions:
-  - Combine flour, sugar, baking soda, and salt.
-  - Separately combine and stir wet ingredients.
-  - Mix all together will smooth. Allow to rest for 5 minutes.
-  - Cook over medium heat.
+  - Combine flour, sugar, baking soda, and salt
+  - Separately combine and stir wet ingredients
+  - Mix all together will smooth. Allow to rest for 5 minutes
+  - Cook over medium heat
+related:
+  - berry_compote
 ---
