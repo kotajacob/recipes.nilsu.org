@@ -11,6 +11,8 @@ equipment:
   - Pot
   - Blender
 ingredients:
+ - 500g pasta
+ - break
  - 0.5 cup raw cashews, soaked
  - break
  - 2 Tbsp olive oil
