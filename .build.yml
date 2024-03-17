@@ -13,4 +13,4 @@ tasks:
   - deploy: |
       cd recipes.nilsu.org
       sshopts="ssh -o StrictHostKeyChecking=no"
-      rsync --rsh="$sshopts" -rdvP public/ kota@recipe.nilsu.org:/var/www/html/recipes/
+      rsync --rsh="$sshopts" -rdvP public/ srht@recipe.nilsu.org:/var/www/html/recipes/
